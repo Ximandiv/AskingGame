@@ -18,6 +18,8 @@ function finishGame(){
     StopTimer();
 
     let audio = document.getElementById('gameoverAudio');
+    let button = document.getElementById('button');
+    let buttonFinish = document.getElementById('buttonFinish');
 
     buttonFinish.removeAttribute('hidden');
     button.hidden = true;
