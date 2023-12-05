@@ -3,34 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juego de Preguntas</title>
-    <link rel="stylesheet" href="../CSS/styles.css">
+    <title>Asking Game</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 <body onload="StartTimer()">
     <h1 id="timer">30</h1>
     <br>
-    <p>Cuánto es 1+1?</p>
+    <p>What's 1+1?</p>
     <input type="number" id="answerOne">
     <br> <br>
-    <p>Cuánto es 2+2?</p>
+    <p>What's 2+2?</p>
     <input type="number" id="answerTwo">
     <br> <br>
-    <p>Cómo se llama el número 2.141516...?</p>
+    <p>How do we call this number 2.141516...?</p>
     <input type="text" id="answerThree">
     <br> <br>
-    <p>Cómo se llama el elemento que es redondo?</p>
+    <p>How do you call a round element?</p>
     <input type="text" id="answerFour">
     <br> <br>
-    <p>Cómo es tu nombre?</p>
+    <p>Who are you?</p>
     <input type="text" id="answerFive">
     <br>
     <br>
-    <button onclick="EndGame()" id="button">Finalizar</button>
-    <button onclick="Reset()" id="buttonFinish" hidden>Volver a Intentar</button>
+    <button onclick="EndGame()" id="button">Finish</button>
+    <button onclick="Reset()" id="buttonFinish" hidden>Try Again</button>
     <audio id="gameoverAudio">
-        <source src="../Audio/Gameover.mp3">
+        <source src="./Audio/Gameover.mp3">
         Audio not found
     </audio>
 </body>
-<script src="../JS/script.js"></script>
+<script src="./JS/script.js"></script>
 </html>
