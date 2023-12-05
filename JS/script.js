@@ -23,7 +23,7 @@ function finishGame(){
     button.hidden = true;
     
     audio.play();
-    alert('Game Over! Se ha acabado el tiempo.')
+    alert(`Game Over! Time's up.`);
 }
 
 function EndGame(){
@@ -40,13 +40,13 @@ function EndGame(){
     let answerFive = document.getElementById('answerFive').value;
 
     let output = `
-    Estás son tus respuestas
-    Respuesta Uno: ${answerOne}
-    Respuesta Dos: ${answerTwo}
-    Respuesta Tres: ${answerThree}
-    Respuesta Cuatro: ${answerFour}
-    Respuesta Cinco: ${answerFive}
-    Fecha y Hora: ${timeNow}`;
+    These are your answers
+    First Question: ${answerOne}
+    Second Question: ${answerTwo}
+    Third Question: ${answerThree}
+    Fourth Question: ${answerFour}
+    Fifth Question: ${answerFive}
+    Date and Hour: ${timeNow}`;
 
     buttonFinish.removeAttribute('hidden');
     button.hidden = true;
